@@ -21,7 +21,7 @@ public class CreateLead extends ProjectMethods {
 	public void create(String cname, String fname, String lname)
 	{
 	
-	WebElement lead = locateElement("link", "Create Lead");
+	WebElement lead = locateElement("link", "Create Lead1");
 	click(lead);
 	
 	WebElement comp = locateElement("id", "createLeadForm_companyName");
